@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="th" class="scroll-smooth dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สตอรี่บอร์ด Lotto16s - Storyboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+
+    <style>
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+        .float { animation: float 3s ease-in-out infinite; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 font-sarabun transition-colors duration-300">
+    <header class="bg-white dark:bg-gray-800 shadow-md fixed w-full z-10 transition-colors duration-300">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="../index.html" class="text-2xl font-semibold">Storyboard</a>
+            <div class="flex items-center">
+                <a href="crew.html" class="text-lg mr-4 hover:text-blue-600 transition duration-300">Ambsiam</a>
+                <a href="crew2.html" class="text-lg mr-4 hover:text-blue-600 transition duration-300">Lotto16s</a>
+                <button id="darkModeToggle" class="p-2 rounded-full bg-gray-200 dark:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-24 pb-12">
+        <section class="container mx-auto px-6">
+        <h1 class="text-4xl font-bold mb-8 text-center text-indigo-700 dark:text-indigo-400">Lotto16s</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Scene 1 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+            <h2 class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300 flex items-center">
+                <i class="fas fa-film mr-2"></i>Scene 1: ฉากเปิดเรื่อง (ห้องนอนนางเอก)
+            </h2>
+
+            <div class="mb-4 flex items-center">
+                <i class="far fa-clock text-indigo-500 dark:text-indigo-300 mr-2"></i>
+                <span class="bg-indigo-100 dark:bg-indigo-700 dark:text-indigo-100 text-indigo-800 text-sm font-semibold px-2.5 py-0.5 rounded">
+                    ระยะเวลา: 10 วินาที
+                </span>
+            </div>
+
+            <div class="space-y-3">
+                <div class="flex items-start">
+                    <i class="fas fa-camera text-indigo-500 dark:text-indigo-300 mt-1 mr-2"></i>
+                    <div>
+                        <strong class="text-gray-700 dark:text-gray-300">การถ่ายทำและเทคนิคพิเศษ:</strong>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li>เริ่มด้วยมุมกว้างของห้องนอน แสงสลัวจากโคมไฟข้างเตียง (2 วินาที)</li>
+                            <li>ใช้ Dolly zoom เข้าหาใบหน้านางเอกที่กำลังหลับ (2 วินาที)</li>
+                            <li>ตัดเข้าสู่ CG ฉากความฝัน: พื้นหลังสีขาวสว่าง มีเตียงและนางเอกที่กำลังนอนอยู่ เทวดายืนอยู่ข้างๆ (4 วินาที)</li>
+                            <li>ตัดกลับมาที่นางเอกตื่นขึ้นอย่างตกใจ รีบคว้าสมุดโน้ตและปากกา (2 วินาที)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <i class="fas fa-volume-up text-indigo-500 dark:text-indigo-300 mt-1 mr-2"></i>
+                    <div>
+                        <strong class="text-gray-700 dark:text-gray-300">เสียงและบทพูด:</strong>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li>เสียงดนตรีประกอบแนวลึกลับ</li>
+                            <li>เทวดา (เสียงออโต้จูน): "เลขเด็ดงวดนี้คือ 123456!"</li>
+                            <li>เสียง SFX: นางเอกหายใจแรงเมื่อตื่น</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <h3 class="font-semibold text-indigo-600 dark:text-indigo-300 mb-2 flex items-center">
+                    <i class="fas fa-box-open mr-2"></i>อุปกรณ์ประกอบฉาก:
+                </h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">เตียงนอน</span>
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">โคมไฟตั้งโต๊ะ</span>
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">สมุดโน้ต</span>
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">ปากกา</span>
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">ชุดเทวดา</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scene 2 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+            <h2 class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300 flex items-center">
+                <i class="fas fa-film mr-2"></i>Scene 2: ฉากร้านอาหารตามสั่ง
+            </h2>
+
+            <div class="mb-4 flex items-center">
+                <i class="far fa-clock text-indigo-500 dark:text-indigo-300 mr-2"></i>
+                <span class="bg-indigo-100 dark:bg-indigo-700 dark:text-indigo-100 text-indigo-800 text-sm font-semibold px-2.5 py-0.5 rounded">
+                    ระยะเวลา: 10 วินาที
+                </span>
+            </div>
+
+            <div class="space-y-3">
+                <div class="flex items-start">
+                    <i class="fas fa-camera text-indigo-500 dark:text-indigo-300 mt-1 mr-2"></i>
+                    <div>
+                        <strong class="text-gray-700 dark:text-gray-300">การถ่ายทำและเทคนิคพิเศษ:</strong>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li>เริ่มด้วยมุมกว้างของร้านอาหารที่คนพลุกพล่าน (2 วินาที)</li>
+                            <li>ใช้ Tracking shot ตามนางเอกที่เดินเข้าร้านในชุดนอน (3 วินาที)</li>
+                            <li>ซูมเข้าที่เจ๊ (ผู้ชายแต่งตัวเป็นเจ๊) กำลังทำอาหาร (1 วินาที)</li>
+                            <li>ใช้ Over-the-shoulder shot เมื่อนางเอกยื่นกระดาษให้เจ๊ (1 วินาที)</li>
+                            <li>ตัดสลับระหว่างใบหน้าเจ๊และนางเอกขณะสนทนา (2 วินาที)</li>
+                            <li>จบด้วย Wide shot แสดงเจ๊ทำอาหารอย่างรวดเร็วและวุ่นวาย (1 วินาที)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <i class="fas fa-volume-up text-indigo-500 dark:text-indigo-300 mt-1 mr-2"></i>
+                    <div>
+                        <strong class="text-gray-700 dark:text-gray-300">เสียงและบทพูด:</strong>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li>เสียงบรรยากาศร้านอาหาร</li>
+                            <li>นางเอก: "เจ๊ หนูฝันเห็นเลขนี้เลยนะ!"</li>
+                            <li>เจ๊: "ได้เลยจ้ะ เดี๋ยวเจ๊จัดการให้"</li>
+                            <li>เสียง SFX: เสียงกระทะและหม้อกระทบกัน</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <h3 class="font-semibold text-indigo-600 dark:text-indigo-300 mb-2 flex items-center">
+                    <i class="fas fa-box-open mr-2"></i>อุปกรณ์ประกอบฉาก:
+                </h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">โต๊ะและเก้าอี้ร้านอาหาร</span>
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">อุปกรณ์ทำอาหาร</span>
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">ผ้ากันเปื้อน</span>
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">กระดาษโน้ต</span>
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">ชุดนอนนางเอก</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scene 3 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+            <h2 class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300 flex items-center">
+                <i class="fas fa-film mr-2"></i>Scene 3: ฉากในบ้านนางเอก (ดูผลหวย)
+            </h2>
+
+            <div class="mb-4 flex items-center">
+                <i class="far fa-clock text-indigo-500 dark:text-indigo-300 mr-2"></i>
+                <span class="bg-indigo-100 dark:bg-indigo-700 dark:text-indigo-100 text-indigo-800 text-sm font-semibold px-2.5 py-0.5 rounded">
+                    ระยะเวลา: 15 วินาที
+                </span>
+            </div>
+
+            <div class="space-y-3">
+                <div class="flex items-start">
+                    <i class="fas fa-camera text-indigo-500 dark:text-indigo-300 mt-1 mr-2"></i>
+                    <div>
+                        <strong class="text-gray-700 dark:text-gray-300">การถ่ายทำและเทคนิคพิเศษ:</strong>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li>เริ่มด้วย Split screen: นางเอกนั่งดูทีวี | ภาพผลหวย (3 วินาที)</li>
+                            <li>สลับซูมระหว่างตานางเอกที่เบิกกว้างและตัวเลขหวยบนทีวี (3 วินาที)</li>
+                            <li>แทรก CG ย้อนภาพเทวดาบอกเลขหวย พร้อมเสียงแอคโค่ (2 วินาที)</li>
+                            <li>ใช้ Slow motion และ 360-degree camera ถ่ายนางเอกดีใจ กระโดดโลดเต้น (4 วินาที)</li>
+                            <li>CG Overlay: ภาพบ้านหรู รถสปอร์ต เงินทอง (1 วินาที)</li>
+                            <li>ใช้ Whip pan ไปที่โทรศัพท์ที่กำลังสั่น (2 วินาที)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <i class="fas fa-volume-up text-indigo-500 dark:text-indigo-300 mt-1 mr-2"></i>
+                    <div>
+                        <strong class="text-gray-700 dark:text-gray-300">เสียงและบทพูด:</strong>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li>เสียงประกาศผลหวยจากทีวี</li>
+                            <li>เสียงเทวดา (แอคโค่): "เลขเด็ดงวดนี้คือ 123456!"</li>
+                            <li>เสียง SFX: เสียงดีใจ, เสียงเงินร่วง</li>
+                            <li>เสียงโทรศัพท์สั่น</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <h3 class="font-semibold text-indigo-600 dark:text-indigo-300 mb-2 flex items-center">
+                    <i class="fas fa-box-open mr-2"></i>อุปกรณ์ประกอบฉาก:
+                </h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">โซฟา</span>
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">ทีวีจอใหญ่</span>
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">โทรศัพท์มือถือ</span>
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">ของตกแต่งบ้าน</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scene 4 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+            <h2 class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300 flex items-center">
+                <i class="fas fa-film mr-2"></i>Scene 4: ฉากโทรศัพท์และผี
+            </h2>
+
+            <div class="mb-4 flex items-center">
+                <i class="far fa-clock text-indigo-500 dark:text-indigo-300 mr-2"></i>
+                <span class="bg-indigo-100 dark:bg-indigo-700 dark:text-indigo-100 text-indigo-800 text-sm font-semibold px-2.5 py-0.5 rounded">
+                    ระยะเวลา: 10 วินาที
+                </span>
+            </div>
+
+            <div class="space-y-3">
+                <div class="flex items-start">
+                    <i class="fas fa-camera text-indigo-500 dark:text-indigo-300 mt-1 mr-2"></i>
+                    <div>
+                        <strong class="text-gray-700 dark:text-gray-300">การถ่ายทำและเทคนิคพิเศษ:</strong>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li>เริ่มด้วย POV shot: มุมมองนางเอกถือโทรศัพท์ (2 วินาที)</li>
+                            <li>ใช้ Extreme slow motion: โทรศัพท์หล่น พร้อมเสียง Echo (2 วินาที)</li>
+                            <li>Jump scare: ผี 2 ตัวโผล่มาด้านหลังนางเอก (2 วินาที)</li>
+                            <li>ใช้ Close-up shot: ผีทั้งสองมองหน้ากัน แสดงสีหน้าประหลาดใจ (1 วินาที)</li>
+                            <li>Tracking shot: ผีทั้งสองเดินเข้ามาหานางเอกอย่างช้าๆ (2 วินาที)</li>
+                            <li>ใช้ Handheld camera: ผีเขย่าตัวนางเอกที่ยังคงอาการตาค้าง (1 วินาที)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <i class="fas fa-volume-up text-indigo-500 dark:text-indigo-300 mt-1 mr-2"></i>
+                    <div>
+                        <strong class="text-gray-700 dark:text-gray-300">เสียงและบทพูด:</strong>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li>เสียงเจ๊ (ทางโทรศัพท์): "ขอโทษทีนะ ฉันส่งหวยไม่ทัน เอาไว้งวดหน้านะ"</li>
+                            <li>เสียง SFX: เสียงหัวใจเต้นแรง</li>
+                            <li>เสียง SFX: เสียงโทรศัพท์หล่นแบบ Slow motion</li>
+                            <li>เสียง SFX: เสียงผีหัวเราะแบบน่ากลัว</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <h3 class="font-semibold text-indigo-600 dark:text-indigo-300 mb-2 flex items-center">
+                    <i class="fas fa-box-open mr-2"></i>อุปกรณ์ประกอบฉาก:
+                </h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">โทรศัพท์มือถือ</span>
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">ชุดผีสีขาว 2 ชุด</span>
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">เมคอัพและอุปกรณ์แต่งหน้าผี</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scene 5 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+            <h2 class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300 flex items-center">
+                <i class="fas fa-film mr-2"></i>Scene 5: ฉากพริตตี้และปิดเรื่อง
+            </h2>
+
+            <div class="mb-4 flex items-center">
+                <i class="far fa-clock text-indigo-500 dark:text-indigo-300 mr-2"></i>
+                <span class="bg-indigo-100 dark:bg-indigo-700 dark:text-indigo-100 text-indigo-800 text-sm font-semibold px-2.5 py-0.5 rounded">
+                    ระยะเวลา: 15 วินาที
+                </span>
+            </div>
+
+            <div class="space-y-3">
+                <div class="flex items-start">
+                    <i class="fas fa-camera text-indigo-500 dark:text-indigo-300 mt-1 mr-2"></i>
+                    <div>
+                        <strong class="text-gray-700 dark:text-gray-300">การถ่ายทำและเทคนิคพิเศษ:</strong>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li>เริ่มด้วย Dolly shot: พริตตี้เดินเข้าฉากจากด้านข้าง (3 วินาที)</li>
+                            <li>ใช้ Reaction shots: ทุกคนหันไปมองพริตตี้ ผีหยุดเขย่านางเอก (2 วินาที)</li>
+                            <li>Medium shot: พริตตี้พูดถึงการแทงหวยออนไลน์ (3 วินาที)</li>
+                            <li>ซูมเข้าหน้าจอมือถือพริตตี้ แสดงเว็บไซต์ lotto16s (3 วินาที)</li>
+                            <li>Voice-over: เสียงผู้ชายอธิบายสโลแกน พร้อมภาพหน้าเว็บประกอบ (2 วินาที)</li>
+                            <li>ซูมออกจากมือถือ แสดงปฏิกิริยาของทุกคน นางเอกและผีพยักหน้าเห็นด้วย (1 วินาที)</li>
+                            <li>Wide shot: มุมกว้างเห็นทุกตัวละคร (นางเอก, ผี 2 ตัว, พริตตี้) (1 วินาที)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <i class="fas fa-volume-up text-indigo-500 dark:text-indigo-300 mt-1 mr-2"></i>
+                    <div>
+                        <strong class="text-gray-700 dark:text-gray-300">เสียงและบทพูด:</strong>
+                        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+                            <li>เสียงดนตรีประกอบแนวสดใส</li>
+                            <li>พริตตี้: "จะแทงหวยใต้ดินทำไม เดี๋ยวนี้เขาแทงหวยออนไลน์แล้ว จ่ายสูงสุดบาทละ 1,000"</li>
+                            <li>Voice-over: อธิบายสโลแกนและข้อดีของ Lotto16s</li>
+                            <li>เสียง SFX: เสียงตื่นเต้นและประหลาดใจจากตัวละครอื่นๆ</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <h3 class="font-semibold text-indigo-600 dark:text-indigo-300 mb-2 flex items-center">
+                    <i class="fas fa-box-open mr-2"></i>อุปกรณ์ประกอบฉาก:
+                </h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">สมาร์ทโฟนรุ่นใหม่</span>
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">ชุดเซ็กซี่สีแดงสำหรับพริตตี้</span>
+                    <span class="bg-gray-200 dark:bg-gray-700 dark:text-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">โลโก้และสโลแกน Lotto16s</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container mx-auto px-6 mt-8">
+    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+        <h2 class="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-300 flex items-center">
+            <i class="fas fa-film mr-2"></i>Compact Version
+        </h2>
+        <div class="space-y-4">
+            <section>
+                <h3 class="text-xl font-semibold mb-2">Scene 1: ฉากเปิดเรื่อง (ห้องนอนนางเอก)</h3>
+                <p>เรื่องราวเริ่มต้นในห้องนอนของนางเอกที่กำลังหลับสนิท แสงไฟสลัวจากโคมไฟข้างเตียงส่องสว่างเบาๆ กล้องเริ่มถ่ายจากมุมกว้างของห้องนอน ก่อนจะใช้ Dolly zoom เข้าหาใบหน้านางเอกที่กำลังหลับอยู่</p>
+                <p>ทันใดนั้นภาพตัดเข้าสู่ฉากความฝันที่เต็มไปด้วย CG พื้นหลังสีขาวสว่าง มีเตียงและนางเอกที่กำลังนอนอยู่ เทวดายืนอยู่ข้างๆ พร้อมกับถือไมโครโฟนพูดด้วยเสียงออโต้จูน "เลขเด็ดงวดนี้คือ 123456!"</p>
+                <p>นางเอกตื่นขึ้นอย่างตกใจ รีบคว้าสมุดโน้ตและปากกาเพื่อจดเลขเด็ดที่ได้จากความฝัน</p>
+            </section>
+
+            <section>
+                <h3 class="text-xl font-semibold mb-2">Scene 2: ฉากร้านอาหารตามสั่ง</h3>
+                <p>นางเอกเดินเข้าร้านอาหารตามสั่งในชุดนอน กล้องใช้ Tracking shot ตามนางเอกที่เดินเข้าร้านที่คนพลุกพล่าน ก่อนจะซูมเข้าที่เจ๊ (ผู้ชายแต่งตัวเป็นเจ๊) กำลังทำอาหาร นางเอกยื่นกระดาษให้เจ๊และพูดว่า "เจ๊ หนูเอาเลขนี้ 1000x1000!" จัดการให้หนูหน่อย</p>
+                <p>เจ๊ตอบกลับด้วยความมั่นใจ "ได้เลยจ้ะ เดี๋ยวเจ๊จัดการให้" ก่อนจะเสียงกระทะและหม้อกระทบกันอย่างวุ่นวาย</p>
+            </section>
+
+            <section>
+                <h3 class="text-xl font-semibold mb-2">Scene 3: ฉากในบ้านนางเอก (ดูผลหวย)</h3>
+                <p>นางเอกนั่งดูทีวีที่กำลังประกาศผลหวย กล้องใช้ Split screen แสดงภาพนางเอกและภาพผลหวย สลับซูมระหว่างตานางเอกที่เบิกกว้างและตัวเลขหวยบนทีวี</p>
+                <p>ทันใดนั้น CG แทรกย้อนภาพเทวดาบอกเลขหวย พร้อมเสียงแอคโค่ "เลขเด็ดงวดนี้คือ 123456!" นางเอกดีใจ กระโดดโลดเต้นใน Slow motion และ 360-degree camera ถ่ายนางเอกที่แสดงความดีใจอย่างสุดขีด</p>
+                <p>ภาพ CG Overlay แสดงบ้านหรู รถสปอร์ต และเงินทอง ก่อนจะใช้ Whip pan ไปที่โทรศัพท์ที่กำลังสั่น</p>
+            </section>
+
+            <section>
+                <h3 class="text-xl font-semibold mb-2">Scene 4: ฉากโทรศัพท์และผี</h3>
+                <p>นางเอกถือโทรศัพท์ที่กำลังสั่น เมื่อรับสาย เสียงเจ๊ดังขึ้น "ขอโทษทีนะ ฉันส่งหวยไม่ทัน เอาไว้งวดหน้านะ" โทรศัพท์หล่นจากมือใน Extreme slow motion พร้อมเสียง Echo</p>
+                <p>ทันใดนั้น ผี 2 ตัวโผล่มาด้านหลังนางเอก กล้องใช้ Jump scare และ Close-up shot แสดงผีทั้งสองมองหน้ากันอย่างประหลาดใจ ก่อนจะ Tracking shot ตามผีที่เดินเข้ามาหานางเอกอย่างช้าๆ และใช้ Handheld camera ถ่ายผีเขย่าตัวนางเอกที่ยังคงอาการตาค้าง</p>
+            </section>
+
+            <section>
+                <h3 class="text-xl font-semibold mb-2">Scene 5: ฉากพริตตี้และปิดเรื่อง</h3>
+                <p>พริตตี้เดินเข้าฉากจากด้านข้างด้วย Dolly shot ทุกคนในฉากหันไปมองพริตตี้ ผีหยุดเขย่านางเอก พริตตี้พูดถึงการแทงหวยออนไลน์ "จะแทงหวยใต้ดินทำไม เดี๋ยวนี้เขาแทงหวยออนไลน์แล้ว จ่ายสูงสุดบาทละ 1,000"</p>
+                <p>กล้องซูมเข้าหน้าจอมือถือพริตตี้ แสดงเว็บไซต์ lotto16s พร้อม Voice-over อธิบายสโลแกนและข้อดีของ Lotto16s</p>
+                <p>กล้องซูมออกจากมือถือ แสดงปฏิกิริยาของทุกคน นางเอกและผีพยักหน้าเห็นด้วย</p>
+                <p>ทันใดนั้น ผีหนึ่งในสองตัวก็พูดขึ้นมาด้วยเสียงแหบแบบผี "แล้วพวกเราจะเล่นหวยได้ไหม?" ทุกคนในฉากหันไปมองผีด้วยความตกใจและประหลาดใจ</p>
+                <p>พริตตี้หัวเราะเบาๆ แล้วพูดว่า "ได้สิ! Lotto16s แทงได้ทุกคน ไม่ว่าจะเป็นคนเป็นหรือผี!"</p>
+                <p>ทุกคนในฉากรวมถึงผีต่างพากันยกมือถือขึ้นมามาแทงหวย กล้องใช้ Wide shot แสดงมุมกว้างเห็นทุกตัวละคร (นางเอก, ผี 2 ตัว, พริตตี้)</p>
+                <p>และปิดท้ายด้วยโลโก้ของเว็บไซต์ Lotto16s</p>
+            </section>
+        </div>
+    </div>
+</div>
+
+</main>
+
+    <footer class="bg-gray-800 dark:bg-gray-900 text-white py-8 relative">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex justify-center mb-4">
+                <img src="https://i.imgur.com/HzQdnpk.png" alt="Mystery Box" class="w-16 h-16 rounded-full animate-bounce">
+            </div>
+            <p class="mb-4">© 2024 Storyboard. All rights reserved.</p>
+            <div class="absolute bottom-0 left-0 right-0 pb-4">
+                <p class="text-sm text-gray-400">ถ้าคุณเห็นข้อความนี้ คุณคือผู้โชคดี!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Dark mode toggle
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        darkModeToggle.addEventListener('click', () => {
+            document.documentElement.classList.toggle('dark');
+        });
+
+        // Lazy loading
+        const lazyLoadObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.src = entry.target.dataset.src;
+                    observer.unobserve(entry.target);
+                }
+            });
+        });
+
+        document.querySelectorAll('img.lazy-load').forEach(img => {
+            img.dataset.src = img.src;
+            img.src = '';
+            lazyLoadObserver.observe(img);
+        });
+    </script>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
